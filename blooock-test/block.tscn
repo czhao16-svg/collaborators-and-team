@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3 uid="uid://cs745jjilstfr"]
+
+[ext_resource type="Texture2D" uid="uid://dfj3e6a1s37g" path="res://Tiles/tile_0038.png" id="1_im0tn"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_im0tn"]
+size = Vector2(242.163, 12.2255)
+
+[node name="Block" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(40, 33)
+scale = Vector2(2.04, 2.04)
+texture = ExtResource("1_im0tn")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(16, 0)
+texture = ExtResource("1_im0tn")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Sprite2D"]
+position = Vector2(32, 0)
+texture = ExtResource("1_im0tn")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2"]
+position = Vector2(16, 0)
+texture = ExtResource("1_im0tn")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/Sprite2D2/Sprite2D"]
+position = Vector2(16, 0)
+texture = ExtResource("1_im0tn")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(105.5, 33)
+rotation = 3.14159
+scale = Vector2(0.673101, -2.61748)
+shape = SubResource("RectangleShape2D_im0tn")
