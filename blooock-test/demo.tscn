@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://kfdb0417rdga"]
+
+[ext_resource type="Texture2D" uid="uid://dxujqb4hoi3f1" path="res://ET-ATARI.webp" id="1_5hfv0"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="EtAtari" type="Sprite2D" parent="."]
+position = Vector2(1044, 907)
+texture = ExtResource("1_5hfv0")
