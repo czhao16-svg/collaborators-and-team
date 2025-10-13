@@ -11,7 +11,7 @@
 [ext_resource type="PackedScene" uid="uid://d16nflsluutnt" path="res://ET.tscn" id="9_7r4gi"]
 
 [node name="world" type="Sprite2D"]
-position = Vector2(575, 323)
+position = Vector2(577, 323)
 scale = Vector2(1.79688, 1.78889)
 texture = ExtResource("1_7r4gi")
 
@@ -22,10 +22,12 @@ scale = Vector2(0.736957, 0.469721)
 texture = ExtResource("2_w7kh3")
 
 [node name="Background004" type="Sprite2D" parent="."]
+visible = false
 position = Vector2(-1.66957, -15.6522)
 texture = ExtResource("3_e3hyu")
 
 [node name="Background008" type="Sprite2D" parent="."]
+visible = false
 position = Vector2(-0.556521, -0.559011)
 texture = ExtResource("4_q5onr")
 
